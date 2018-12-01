@@ -1,3 +1,12 @@
+## Cyanogenmod patched telephony for HiSilicon devices
+
+**Fork of Cyanogenmod telephony with added HuaweiRIL so RIL works on a few hisi devices**
+
+[Marshmallow only]
+
+**-----------------------------**
+
+
 This package contains classes used to manage a DataConnection.
 
 A criticial aspect of this class is that most objects in this
@@ -69,3 +78,6 @@ You can force the telephony stack to always assume that it's roaming
 to verify higher-level framework functionality:
 
 device# setprop telephony.test.forceRoaming true
+
+
+**-----------------------------**
